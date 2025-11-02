@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "Sentry": {
+      "url": "https://mcp.sentry.dev/mcp/comilla-university-05/react-native-fast-food",
+      "type": "http"
+    }
+  }
+}

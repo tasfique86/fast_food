@@ -40,7 +40,15 @@
           }
         }
       ],
-      "expo-font"
+      "expo-font",
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "react-native-fast-food",
+          "organization": "comilla-university-05"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

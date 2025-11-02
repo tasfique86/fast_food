@@ -8,7 +8,11 @@ export const appwriteConfig={
     platform: "com.tasfique86.fastfood",
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     dataBaseId:'68fe68a1001f83a1d37d',                                            
-    userCollectionId: 'user'
+    userCollectionId: 'user',
+    categoriesCollectionId:'categories',
+    menuCollectionId:'menu',
+    customizationCollectionId:'customizations',
+    menuCustomizationCollectionId:'menu_customization'
 }
 export const client = new Client();
 
